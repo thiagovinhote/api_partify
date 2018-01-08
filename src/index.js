@@ -1,6 +1,10 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 
+if (process.env.NODE_ENV !== 'production') {
+  require('dotenv').load();
+}
+
 const app = express();
 
 app.use(bodyParser.json());

@@ -4,7 +4,8 @@
   "description": "API em NodeJS com Express e MongoDB para à aplicação Partify\"",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
   },
   "author": "Thiago Vinhote",
   "license": "ISC",
@@ -18,5 +19,8 @@
     "nodemailer": "^4.4.1",
     "nodemailer-express-handlebars": "^2.0.0",
     "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "dotenv": "^4.0.0"
   }
 }
